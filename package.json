@@ -1,0 +1,26 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "description": "A promotional website built for a startup, using HTML, CSS, and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JungFF/Omnifood.git"
+  },
+  "author": "JungFF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JungFF/Omnifood/issues"
+  },
+  "homepage": "https://github.com/JungFF/Omnifood#readme",
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.9"
+  }
+}
