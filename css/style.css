@@ -42,6 +42,25 @@ body {
 /***********************/
 /* GENERAL REUSEABLE COMPONENTS */
 /***********************/
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.grid {
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .heading-primary {
     font-size: 5.2rem;
     font-weight: 700;
@@ -138,8 +157,9 @@ body {
     color: #fff;
     background-color: #e67e22;
 }
+
 .main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active{
+.main-nav-link.nav-cta:active {
     background-color: #cf711f;
 }
 
@@ -205,4 +225,19 @@ body {
 
 .hero-img {
     width: 100%;
+}
+
+/***********************/
+/* HOW IT WORKS SECTION */
+/***********************/
+.section-how {
+    padding: 9.6rem 0;
+    background-color: orangered;
+    text-align: center;
+}
+
+.section-how div div {
+    padding: 100px;
+    font-size: 50px;
+    background-color: #cf711f;
 }
