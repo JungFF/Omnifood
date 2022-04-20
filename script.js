@@ -6,3 +6,12 @@ for (let i = 1; i <= 12; i++) {
 </figure>`
     gallery.insertAdjacentHTML('beforeend', html);
 }
+
+const navList = document.querySelector('.main-nav-list');
+navList.addEventListener('click', (e)=>{
+    e.preventDefault();
+    if(e.target.classList.contains('main-nav-link')){
+        const id = e.target.getAttribute('href');
+        document.querySelector(id).scrollIntoView({behavior:'smooth'});
+    }
+})
